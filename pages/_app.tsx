@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Head from 'next/head';
+import {AppProps} from 'next/app';
 
-// @ts-ignore
 function MyApp({Component, pageProps}: AppProps): JSX.Element {
   return <>
     <Head>
