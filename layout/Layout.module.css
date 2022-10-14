@@ -39,11 +39,10 @@
   }
 
   .sidebar {
-    display: none;
+    display: none !important;
   }
 
   .header {
-    grid-area: header;
     display: block;
   }
 }
